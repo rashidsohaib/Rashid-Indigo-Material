@@ -2,7 +2,7 @@
 
 A clean, Material Design–inspired **light** theme for Thunderbird in indigo and soft blue tones.
 
-![Theme](bird_PO.png)
+![Theme](screenshot.png)
 
 ## Features
 
