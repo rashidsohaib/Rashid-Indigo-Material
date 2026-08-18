@@ -1,0 +1,182 @@
+{
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "Rashid@IndigoMaterial",
+      "strict_min_version": "115.0",
+      "strict_max_version": "141.*"
+    }
+  },
+  "name": "Rashid Indigo Material",
+  "version": "1.0.0",
+  "author": "Rashid Sohaib",
+  "description": "Material Design Indigo/Blue light theme based on Rashid Design 2",
+  "icons": {
+    "64": "cheese64.png"
+  },
+  "theme_experiment": {
+    "stylesheet": "style.css",
+    "colors": {
+      "accCen_text": "--text-color",
+      "accCen_button_text": "--btn-color",
+      "accCen_background": "--bg-color",
+      "accCen_title": "--title-color",
+      "accCen_button_hover": "--primary-color-hover",
+      "accCen_button_icon": "--primary-color",
+      "accCen_button_bg_hover": "--btn-bg-hover",
+
+      "white_background": "--color-white",
+      "search_field_outline": "--my-outline-color",
+
+      "left_sidebar": "--spaces-bg-color",
+      "left_button": "--spaces-button-text-color",
+      "left_button_act": "--spaces-button-active-text-color",
+      "left_button_bg": "--spaces-button-active-bg-color",
+
+      "left_splitter1": "--my-splitter-color-1",
+      "inbox_folder_color": "--folder-color-folder",
+      "inbox_new_color": "--new-folder-color",
+      "list_selected_background": "--list-container-background-selected-current",
+      "list_selected_border": "--list-container-border-selected-current",
+      "total_count_text": "--folderpane-total-count-text",
+      "total_count_background": "--folderpane-total-count-background",
+      "inbox_unread_count": "--folderpane-unread-new-count-background",
+
+      "message_list_header": "--my-header-bg",
+      "tree_background_tabs": "--tree-pane-background",
+      "tree_background_rows": "--tree-view-bg",
+      "card_background": "--tree-card-background",
+      "card_border": "--tree-card-border",
+      "new_message": "--new-subject-color",
+
+      "message_header_icons": "--my-icons-color",
+      "message_subject": "--my-subject-text",
+      "recipient_hover_text": "--my-recipient-hover-fg",
+      "recipient_hover_background": "--my-recipient-hover-bg",
+      "initial_message_background": "--my-messagepane-bg",
+      "message_background": "--my-message-bg",
+      "attachment_bar_background": "--my-attachment-bg",
+
+      "sidebar_calendar_buttons_bg": "--my-minimonth-bg",
+
+      "calendar_header_background": "--my-calendar-header-bg",
+      "weekend_background": "--viewWeekendBackground",
+      "other_month_background": "--viewMonthDayOtherBackground",
+      "today_background": "--viewTodayBackground",
+      "today_weekend_background": "--viewTodayWeekendBackground",
+      "calendar_task_background": "--my-calendar-task-bg",
+      "calendar_event_selected": "--my-event-selected",
+
+      "agenda_background": "--my-agenda-bg"
+    },
+    "images": {
+      "initial_message_image": "--my-messagepane-img"
+    },
+    "properties": {
+      "main_toolbar_shadow": "--tabs-toolbar-box-shadow",
+      "message_padding": "--my-message-padd",
+      "sidebar_calendarlist_margin": "--my-calList-header-marg",
+      "calendar_padding": "--my-calendar-padd",
+      "task_padding": "--my-calendar-task-padd"
+    }
+  },
+  "theme": {
+    "colors": {
+      "white_background": "#FFFFFF",
+      "search_field_outline": "#3949AB",
+
+      "frame": "#E8EAF6",
+      "icons": "#283593",
+      "tab_line": "#E8EAF6",
+      "tab_selected": "#E8EAF6",
+      "tab_background_text": "#37474F",
+
+      "popup": "#FFFFFF",
+      "popup_border": "#3949AB",
+      "popup_text": "#212121",
+      "popup_highlight": "#C5CAE9",
+      "popup_highlight_text": "#1A237E",
+
+      "accCen_text": "#212121",
+      "accCen_button_text": "#212121",
+      "accCen_background": "#F5F5F5",
+      "accCen_title": "#3949AB",
+      "accCen_button_hover": "#3949AB",
+      "accCen_button_icon": "#3949AB",
+      "accCen_button_bg_hover": "#C5CAE9",
+
+      "left-sidebar": "#E8EAF6",
+      "left_button": "#1A237E",
+      "left_button_act": "#FFFFFF",
+      "left_button_bg": "#9FA8DA",
+
+      "sidebar": "#E8EAF6",
+      "sidebar_border": "#C5CAE9",
+      "sidebar_highlight": "#3949AB",
+      "sidebar_highlight_border": "#E8EAF6",
+      "sidebar_highlight_text": "#FFFFFF",
+      "sidebar_text": "#283593",
+      "left_splitter1": "#C5CAE9",
+      "inbox_folder_color": "#283593",
+      "inbox_new_color": "#3949AB",
+      "list_selected_background": "#C5CAE9",
+      "list_selected_border": "#3949AB",
+      "total_count_text": "#283593",
+      "total_count_background": "#E8EAF6",
+      "inbox_unread_count": "#3949AB",
+
+      "message_list_header": "#D1D5EF",
+      "tree_background_tabs": "#D1D5EF",
+      "tree_background_rows": "#D1D5EF",
+      "card_background": "#FAFAFA",
+      "card_border": "#3949AB",
+      "new_message": "#3949AB",
+
+      "message_header_icons": "#283593",
+      "message_subject": "#283593",
+      "recipient_hover_text": "#1A237E",
+      "recipient_hover_background": "#E8EAF6",
+      "initial_message_background": "#ECEFF1",
+      "message_background": "#FAFAFA",
+      "attachment_bar_background": "#E8EAF6",
+
+      "sidebar_calendar_buttons_bg": "#C5CAE9",
+
+      "calendar_header_background": "#ECEFF1",
+      "weekend_background": "#EDE7F6",
+      "today_background": "#E3F2FD",
+      "today_weekend_background": "#E3F2FD",
+      "other_month_background": "#F5F5F5",
+      "calendar_task_background": "#E3F2FD",
+      "calendar_event_selected": "#3949AB",
+
+      "agenda_background": "#D1D5EF",
+
+      "toolbar": "#F5F5F5",
+      "toolbar_text": "#212121",
+      "toolbar_bottom_separator": "#C5CAE9",
+      "toolbar_top_separator": "#C5CAE9",
+      "toolbar_vertical_separator": "#9FA8DA",
+      "toolbar_field": "#E8EAF6",
+      "toolbar_field_border": "#3949AB",
+      "toolbar_field_text": "#283593",
+      "toolbar_field_focus": "#C5CAE9",
+      "toolbar_field_border_focus": "#5C6BC0",
+      "toolbar_field_text_focus": "#1A237E",
+      "toolbar_field_highlight": "#FAFAFA",
+      "toolbar_field_highlight_text": "#1A237E"
+    },
+    "images": {
+      "initial_message_image": "bird_PO.png"
+    },
+    "properties": {
+      "main_toolbar_shadow": "[0px, 0px, 0px, rgba(0, 0, 0, 0,)]",
+      "message_padding": "0px 0px 0px 6px",
+      "sidebar_calendarlist_margin": "5px",
+      "calendar_padding": "0px",
+      "task_padding": "0px 5px 0px 5px",
+      "color_scheme": "light",
+      "content_color_scheme": "light"
+    }
+  }
+}
